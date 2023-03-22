@@ -1,0 +1,71 @@
+.body {
+    background: #660708;
+    height: 100vh;
+}
+
+.main-div {
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+
+    text-align: center;
+
+}
+
+figcaption {
+    font-size: 30px;
+    color: white;
+}
+
+.addItems {
+    border: 1px solid black;
+    display: flex;
+    width: 350px;
+    justify-content: space-between;
+    height: 40px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background: white;
+}
+
+.addItems input {
+    border: none;
+    outline: none;
+    font-size: 20px;
+    letter-spacing: 1px;
+
+}
+
+.addItems i {
+    align-self: center;
+    cursor: pointer;
+}
+
+.eachItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    height: 40px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-top: 15px;
+    text-transform: capitalize;
+    background: #b1a7a6;
+}
+
+.eachItem i {
+    cursor: pointer;
+}
+
+.remove {
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 15px;
+    cursor: pointer;
+    color: white;
+    background: #161a1d;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
